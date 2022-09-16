@@ -1,4 +1,4 @@
-# domain_scripts
+# Analysis of host-bacteria protein interactions reveals conserved domains and motifs that mediate fundamental infection pathways
 
 These scripts allows for the preprocessing steps of the PHISTO database and the generation of the motif/domain combinations.
 
