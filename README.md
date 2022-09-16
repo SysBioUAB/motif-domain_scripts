@@ -1,6 +1,6 @@
 # Analysis of host-bacteria protein interactions reveals conserved domains and motifs that mediate fundamental infection pathways
 
-These scripts allows for the preprocessing steps of the PHISTO database and the generation of the motif/domain combinations.
+These scripts allow for the preprocessing steps of the PHISTO database and the generation of the motif/domain combinations.
 
 clean_phisto.py: Clean the PHISTO database and generate the FASTA files required to run InterProScan. Generates all the domain combinations given the InterProScan output.
 
