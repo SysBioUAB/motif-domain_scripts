@@ -2,7 +2,7 @@
 
 # Extract the PFAM records from the InterProScan output. 
 if [[ $# != 2 ]] ; then    
-    echo 'ERROR: Wrong arguments given. Usage: bash' "$0" '[HOST_PROTEOME_IN_FASTA PATH] [PFAM_FOLDER PATH]'
+    echo 'ERROR: Wrong arguments given. Usage: bash' "$0" '[INPUT_FOLDER_CONTAINING_INTERPROSCAN_OUTPUTS] [OUTPUT_FOLDER]'
     exit
 fi
 # Change extension if needed ( .fasta or .fasta.tsv)
