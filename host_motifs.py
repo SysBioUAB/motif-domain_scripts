@@ -98,8 +98,8 @@ def motif_domain_combinations(df):
             continue
             #print('Files not found.')
 
-# host_IDR(host_files)
-#search_motifs(host_files)
+host_IDR(host_files)
+search_motifs(host_files)
 motif_domain_combinations(df)
 
 
