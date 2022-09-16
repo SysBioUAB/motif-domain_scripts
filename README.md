@@ -2,6 +2,8 @@
 
 These scripts allow for the preprocessing steps of the PHISTO database and the generation and enrichment of domain-domain and motif-domain combinations.
 
+It is important to decompress the .tar.xz files so the scripts can read the input files!
+
 clean_phisto.py: Cleans the PHISTO database and generate the FASTA files required to run InterProScan. Generates all the domain combinations given the InterProScan output. Multiple functions are defined in this script: 
 - clean_phisto() takes as an input the PHISTO database (phi_data.csv) and outputs the UniProt IDs of all the host/pathogen proteins. 
 - sequences_and_fasta() generates the FASTA files required for InterProScan to predict the domains. The uniprot_host.xlsl and uniprot_pathogen.xlsl files are required to execute this function.
