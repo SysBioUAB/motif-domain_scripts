@@ -69,11 +69,11 @@ def domain_combinations(df):
             continue
 
 
-# Step 2
+
 df_clean = clean_phisto()
-# Step 4
+
 df_final = sequences_and_fasta(df_clean)
-# Step 6
-# subprocess.run(["bash", "extract_pfam_from_tsv.sh"])
-# Step 7
+
+subprocess.run(["bash", "extract_pfam_from_tsv.sh"])
+
 print(domain_combinations(df_final))
