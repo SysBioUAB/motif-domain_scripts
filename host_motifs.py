@@ -43,9 +43,8 @@ def search_motifs(files):
                 ELM.append(line.split("\t")[0].strip().split('"')[1])
                 regex.append(line.split("\t")[4].strip().split('"')[1])
 
-    # This change in the regex is necessary for the findall function.
-    # The problem  is that if the regex that re.findall tries to match captures groups
-    # (i.e. the portions of the regex that are enclosed in parentheses), then it is the groups that are returned, rather than the matched string.
+    # regex modification necessary for the findall function.
+    
     regex = [i.replace('(', '(?:') for i in regex]
 
     for file in files:
